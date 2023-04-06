@@ -1,4 +1,5 @@
-./src/data/ 
+# ignore all files in the src/data folder
+src/data/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
