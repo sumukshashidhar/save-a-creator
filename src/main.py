@@ -15,4 +15,5 @@ video_ids = get_video_ids(creator, api_key)
 # download videos
 for video_id in video_ids:
     print("Downloading video with ID: " + video_id)
+    print("Video Number: " + str(video_ids.index(video_id) + 1) + "/" + str(len(video_ids)))
     download_youtube_video(video_id, output_folder, yt_dl_path)
